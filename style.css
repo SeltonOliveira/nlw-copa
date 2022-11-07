@@ -44,12 +44,27 @@ header{
     text-align: center;
 }
 header h1{
-    color: rgb(74, 145, 238);
+    color: rgb(214, 210, 210);
     padding-bottom: 1rem;
 }
-header p{
-    color: rgb(74, 145, 238);
+header button{
+    background: #2980b9;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2c3e50, #2980b9);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2c3e50, #2980b9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    padding: 0 1.5rem;
     font-size: 1.5rem;
+    transition: 0.4s;
+}
+ header button:hover{
+    transform: scale(1.1);
+}
+.link{
+    text-decoration: none;
+    color: rgb(214, 210, 210);
 }
 #cards{
     display: flex;
