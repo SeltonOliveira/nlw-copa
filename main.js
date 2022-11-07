@@ -22,14 +22,17 @@ let delay = -0.3;
  }
  document.querySelector("#cards").innerHTML = 
     
-        createCard("20/11", "domingo",
-            createGame("qatar", "16:00", "ecuador")
+    createCard("24/11", "domingo",
+        createGame("brazil", "16:00", "serbia") +
+        createGame("switzerland", "07:00", "cameroon")
+    )
+    +
+    createCard("28/11","segunda",
+        createGame("cameroon", "07:00", "serbia") +
+        createGame("brazil", "13:00", "switzerland")
         ) 
-        +
-        createCard("21/11","segunda",
-            createGame("england", "10:00", "iran") + createGame("senegal", "13:00", "netherlands") + createGame("unitedstates", "13:00", "wales") 
-        ) 
-        +
-        createCard("24/11", "sexta",
-            createGame("brazil", "16:00", "serbia")
-        )
+    +
+    createCard("02/12", "Sexta-Feira",
+        createGame("brazil", "16:00", "cameroon") +
+        createGame("serbia", "16:00", "switzerland")
+    )
